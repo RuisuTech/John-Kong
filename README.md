@@ -3,4 +3,3 @@
 ## Integrantes:
 
 Jose Luis Osorio Guzman
-colina
