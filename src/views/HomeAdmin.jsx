@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import "../styles/index.css";
 import "../components/ButtonLogin";
 
-export default function Home() {
+export default function HomeAdmin() {
   return (
     <>
       <div className="Usuario">
-        <h1>Usuario</h1>
+        <h1>Admin</h1>
         <Link to="/" className="cerrar">
           Cerrar Sesion
         </Link>
@@ -25,7 +25,7 @@ export default function Home() {
             ofrecerte una experiencia <br />
             gastronómica inolvidable ✨{" "}
           </p>
-          <button className="buttonLogin">Reservar</button>
+          <button className="buttonLogin">Panel de Control</button>
         </div>
       </div>
     </>

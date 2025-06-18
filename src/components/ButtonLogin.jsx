@@ -4,8 +4,8 @@ import "./ButtonLogin.css";
 
 export default function ButtonLogin() {
   return (
-    <button className="buttonLogin">
-      <Link to="/login">Inicia Sesión o Regístrate</Link>
-    </button>
+    <Link to="/login" className="buttonLogin">
+      Inicia Sesión o Regístrate
+    </Link>
   );
 }

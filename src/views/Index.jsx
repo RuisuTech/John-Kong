@@ -1,17 +1,9 @@
-import { Link } from "react-router-dom";
+import ButtonLogin from "../components/ButtonLogin";
 import "../styles/index.css";
-import "../components/ButtonLogin";
 
-export default function Home() {
+export default function Index() {
   return (
     <>
-      <div className="Usuario">
-        <h1>Usuario</h1>
-        <Link to="/" className="cerrar">
-          Cerrar Sesion
-        </Link>
-      </div>
-
       <div className="container">
         <div className="Back"></div>
 
@@ -25,7 +17,7 @@ export default function Home() {
             ofrecerte una experiencia <br />
             gastronómica inolvidable ✨{" "}
           </p>
-          <button className="buttonLogin">Reservar</button>
+          <ButtonLogin />
         </div>
       </div>
     </>

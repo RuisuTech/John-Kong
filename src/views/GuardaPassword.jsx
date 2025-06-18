@@ -1,12 +1,12 @@
 import "../styles/Password.css";
-import CardRegister from "../components/CardRegister";
+import CardPassword from "../components/CardPassword";
 
-export default function Password() {
+export default function GuardaPassword() {
   return (
     <>
       <div className="Back"></div>
       <div className="Password">
-        <CardRegister />
+        <CardPassword/>
       </div>
     </>
   );
