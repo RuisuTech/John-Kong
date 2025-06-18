@@ -3,4 +3,4 @@
 ## Integrantes:
 
 Jose Luis Osorio Guzman
-Colina
+Colina 2
