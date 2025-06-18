@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: Inter,system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+#root {
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;    
+  height: 100vh; /* Ocupa toda a altura da viewport */
+  width: 100vw; /* Ocupa toda a largura da viewport */
+}
