@@ -9,16 +9,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 0 0 500px;
     gap: 40px;
+    color: white;
+    width: 800px;
 }
 
 .Home h1 {
+    font-family: Mulish, sans-serif;
     font-size: 4em;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .Home p {
     font-size: 1.25em;
     font-weight: 600;
+}
+.home-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
