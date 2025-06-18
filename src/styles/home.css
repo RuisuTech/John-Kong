@@ -1,17 +1,26 @@
-body {
+.Back {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("./home.webp");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
 }
 
 .Home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 0 0 500px;
-    gap: 40px;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0 500px;
+  gap: 40px;
+  height: 100vh;
 }
+
+
 
 .Home h1 {
     font-size: 4em;

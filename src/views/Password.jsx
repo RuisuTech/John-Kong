@@ -1,3 +1,5 @@
+import "../styles/Password.css"
+
 export default function Password() {
     return(
         <>

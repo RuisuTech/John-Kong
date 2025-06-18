@@ -3,6 +3,11 @@ import "../styles/home.css"
 
 export default function Home() {
   return (
+    <>
+
+    <div className="Back">
+    </div>
+    
     <div className="Home">
       <h1>¡Bienvenido a nuestro<br/> restaurant!</h1>
       <p>
@@ -11,5 +16,7 @@ export default function Home() {
       </p>
       <ButtonLogin/>
     </div>
+    </>
+    
   );
 }
