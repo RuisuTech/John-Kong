@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./CardLogin.css";
 
-const CardLogin = () => {
+const CardRegister = () => {
   return (
     <div
       className="card-login-container"
@@ -13,6 +13,14 @@ const CardLogin = () => {
           <img src="/logo.png" alt="John Kong Logo" />
         </div>
 
+        <div className="Text-Password">
+          <h2>Recuperemos tu contraseña</h2>
+          <p>
+            Ingresa tu correo electrónico y te enviaremos un código para
+            continuar con el proceso.
+          </p>
+        </div>
+
         {/* Formulario */}
         <form className="card-login-form">
           <div className="card-login-input">
@@ -20,31 +28,17 @@ const CardLogin = () => {
             <i className="fas fa-user" />
           </div>
 
-          <div className="card-login-input">
-            <input type="password" placeholder="Contraseña" />
-            <i className="fas fa-lock" />
-          </div>
-
-          <Link to="/Password" className="card-login-forgot">
-            ¿Olvidaste tu contraseña?
+          <Link to="/Verificacion" className="card-login-button">
+            Enviar
           </Link>
 
-          <Link to="/Home" className="card-login-button">
-            Iniciar Sesión
+          <Link to="/login" className="card-login-google">
+            Atras
           </Link>
-
-          <button type="button" className="card-login-google">
-            Acceder con Google
-          </button>
         </form>
-
-        {/* Registro */}
-        <p className="card-login-register">
-          ¿No tienes una cuenta? <a href="#">Regístrate aquí</a>
-        </p>
       </div>
     </div>
   );
 };
 
-export default CardLogin;
+export default CardRegister;

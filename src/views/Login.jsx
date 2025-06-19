@@ -1,10 +1,13 @@
 import CardLogin from "../components/CardLogin";
-import "../styles/login.css"
+import "../styles/Login.css"
 
 export default function Login() {
   return (
+    <>
+    <div className="Back"></div>
     <div className="Login">
       <CardLogin />
     </div>
+    </>
   );
 }
