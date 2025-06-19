@@ -1,44 +1,8 @@
-.Usuario {
-  display: flex;
-  color: #ffffff;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  z-index: 20;
-  top: 1rem;
-  right: 1rem;
-}
-
-.Usuario h1 {
-font-size: 1rem;
-}
-
-.buttonLogin, .cerrar {
-  background-color: #008000;
-  border: 0px;
-  padding: 1rem;
-  border-radius: 10px;
-  width: fit-content;
-  color: #ffffff;
-  font-size: 1rem;
-}
-
-.buttonLogin:hover {
-  background-color: #009a00;
+.buttonLogin {
+    background-color: green;
+    width: fit-content;
 }
 
 .buttonLogin a {
-  font-size: 1rem;
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.cerrar {
-  background-color: #ff0000;
-}
-
-.cerrar:hover {
-  background-color: #cd0000;
+    color: #ffffff;
 }

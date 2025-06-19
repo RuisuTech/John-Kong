@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import "./CardLogin.css";
+import './CardLogin.css';
 
 const CardLogin = () => {
   return (
@@ -25,13 +24,13 @@ const CardLogin = () => {
             <i className="fas fa-lock" />
           </div>
 
-          <Link to="/Password" className="card-login-forgot">
+          <a href="#" className="card-login-forgot">
             ¿Olvidaste tu contraseña?
-          </Link>
+          </a>
 
-          <Link to="/Home" className="card-login-button">
+          <button type="submit" className="card-login-button">
             Iniciar Sesión
-          </Link>
+          </button>
 
           <button type="button" className="card-login-google">
             Acceder con Google

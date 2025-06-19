@@ -1,20 +1,9 @@
-.Back {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("./home.webp");
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: 10;
-}
-
-.Login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    z-index: 20;
-    color: #ffffff;
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./home.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
