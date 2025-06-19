@@ -1,20 +1,43 @@
+.Text-Password {
+  color: #000000;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.Text-Password h2 {
+  color: #000000;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.Text-Password p,
+.text-x {
+  color: #000000;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.text-x {
+  margin: 1rem 0;
+}
+
 /* CardLogin.css */
 
 .card-login-container {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
   background-position: center;
+  z-index: 20;
 }
 
 .card-login-box {
-  background-color: #ffffffF5;
+  background-color: #fffffff5;
   backdrop-filter: blur(10px);
   border-radius: 1rem;
   box-shadow: 0 4px 20px #0000001a;
-  padding: 1.5rem;
+  padding: 3rem 2rem;
   width: 350px;
 }
 
@@ -22,7 +45,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-login-logo img {
@@ -47,8 +70,8 @@
 
 .card-login-input input {
   width: 100%;
-  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
-  border-radius: 0.375rem;
+  padding: 0.8rem;
+  border-radius: 10px;
   background-color: #ffffff00;
   border: 1px solid #000000;
   outline: none;
@@ -64,36 +87,39 @@
 .card-login-forgot {
   text-align: right;
   font-size: 0.875rem;
-  color: #4b5563;
+  color: #000000;
   text-decoration: none;
 }
 
 .card-login-forgot:hover {
   text-decoration: underline;
+  color: #16a34a;
 }
 
 .card-login-button {
   background-color: #16a34a;
+  text-align: center;
   color: white;
-  padding: 0.5rem;
-  border-radius: 0.375rem;
+  padding: 1rem;
+  border-radius: 10px;
   border: none;
   transition: background-color 0.3s ease;
 }
 
 .card-login-button:hover {
-  background-color: #15803d;
+  background-color: #22b458;
 }
 
 .card-login-google {
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   background-color: black;
   color: white;
-  padding: 0.5rem;
-  border-radius: 0.375rem;
+  padding: 1rem;
+  border-radius: 10px;
   border: none;
   transition: background-color 0.3s ease;
 }
@@ -135,4 +161,5 @@
 
 .card-login-register a:hover {
   text-decoration: underline;
+  color: #16a34a;
 }

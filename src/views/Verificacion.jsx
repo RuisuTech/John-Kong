@@ -1,12 +1,12 @@
 import "../styles/Password.css";
-import CardRegister from "../components/CardRegister";
+import CardVerificacion from "../components/CardVerificacion";
 
-export default function Password() {
+export default function Verificacion() {
   return (
     <>
       <div className="Back"></div>
       <div className="Password">
-        <CardRegister />
+        <CardVerificacion/>
       </div>
     </>
   );
